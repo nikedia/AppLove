@@ -71,3 +71,148 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {/*tipo block*/
+  /*outline: 1px solid blue;*/
+  background-color: #FFFFFF;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.triangle-logo {
+  /*outline: 1px solid yellow;*/
+  position: absolute;
+  right: 10%;
+  width: 8%;
+  height: auto;
+  top: -10.5px;
+  margin: 3px;
+}
+
+.menu {
+  /*outline: 1px solid pink;*/
+  box-sizing: border-box;
+  position: relative;
+  left: 60px;
+  margin: 30px;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.menu a {
+  margin-left: 22px;
+}
+
+.block1 {
+    /*outline: 1px solid black;*/
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 170px;
+  padding-right: 50px;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.block1 h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.block1 h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.block1 p {
+  color: #FFFFFF;
+  font-size: 17px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.block1 a {
+  color: #FFFFFF;
+  background-color: #2ECC71;
+  font-size: 12px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.block2 {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #F17C72;
+  padding: 5px;
+  height: 650px;
+}
+
+.block2 div img {
+  height: 200px;
+  width: 200px;
+}
+
+.block2 h2 {
+  color:#FFFFFF;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.block2 h4 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+ .image1, .image2, .image3 {
+  float: left;
+  width: 33%;
+}
+
+.block2 h5 {
+  font-size: 14px;
+  color: white;
+}
+
+.block2 h6 {
+  font-size: 12px;
+  color: white;
+  line-height: 10px;
+  padding: 0px;
+  margin: 14px;
+}
+
+.block3 {
+  text-align: center;
+  height: 2600px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #373B47;
+  color:  #FFFFFF;
+  clear: both;
+  height: 100%;
+  padding-top: 8px;
+  text-align: center;
+}
